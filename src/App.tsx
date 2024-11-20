@@ -46,7 +46,8 @@ function App() {
 
     try {
       const response = await openAIClient.chat.completions.create({
-        model: "gpt-4-vision-preview",
+        // model: "gpt-4-vision-preview",
+        model: "gpt-4o-mini",
         messages: [
           {
             role: "user",
